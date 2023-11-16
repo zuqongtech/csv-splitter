@@ -1,0 +1,338 @@
+[
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "pandas",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pandas",
+        "description": "pandas",
+        "detail": "pandas",
+        "documentation": {}
+    },
+    {
+        "label": "Tk",
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "isExtraImport": true,
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "Label",
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "isExtraImport": true,
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "Button",
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "isExtraImport": true,
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "filedialog",
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "isExtraImport": true,
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "Entry",
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "isExtraImport": true,
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "StringVar",
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "isExtraImport": true,
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "Listbox",
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "isExtraImport": true,
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "Scrollbar",
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "isExtraImport": true,
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "MULTIPLE",
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "isExtraImport": true,
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "messagebox",
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "isExtraImport": true,
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "Tk",
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "isExtraImport": true,
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "Label",
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "isExtraImport": true,
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "Button",
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "isExtraImport": true,
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "filedialog",
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "isExtraImport": true,
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "Entry",
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "isExtraImport": true,
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "StringVar",
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "isExtraImport": true,
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "Listbox",
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "isExtraImport": true,
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "Scrollbar",
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "isExtraImport": true,
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "MULTIPLE",
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "isExtraImport": true,
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "messagebox",
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "isExtraImport": true,
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "Progressbar",
+        "importPath": "tkinter.ttk",
+        "description": "tkinter.ttk",
+        "isExtraImport": true,
+        "detail": "tkinter.ttk",
+        "documentation": {}
+    },
+    {
+        "label": "Progressbar",
+        "importPath": "tkinter.ttk",
+        "description": "tkinter.ttk",
+        "isExtraImport": true,
+        "detail": "tkinter.ttk",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "get_output_file_path",
+        "kind": 2,
+        "importPath": "chunk_csv",
+        "description": "chunk_csv",
+        "peekOfCode": "def get_output_file_path(input_file, output_directory, output_prefix, index):\n    file_name = os.path.splitext(os.path.basename(input_file))[0]\n    output_file = f\"{file_name}_{output_prefix}_{index + 1}.csv\"\n    output_path = (\n        output_directory or f\"entries_{datetime.now().strftime('%Y%m%d_%H%M%S')}\"\n    )\n    return os.path.join(output_path, output_file)\ndef split_csv(\n    root,\n    input_files,",
+        "detail": "chunk_csv",
+        "documentation": {}
+    },
+    {
+        "label": "split_csv",
+        "kind": 2,
+        "importPath": "chunk_csv",
+        "description": "chunk_csv",
+        "peekOfCode": "def split_csv(\n    root,\n    input_files,\n    chunk_size=100000,\n    output_directory=None,\n    output_prefix=\"output_file\",\n    progress_var=None,\n):\n    total_files = len(input_files)\n    progress_step = 100 / total_files",
+        "detail": "chunk_csv",
+        "documentation": {}
+    },
+    {
+        "label": "create_output_directory",
+        "kind": 2,
+        "importPath": "chunk_csv",
+        "description": "chunk_csv",
+        "peekOfCode": "def create_output_directory(input_file, output_directory):\n    file_name = os.path.splitext(os.path.basename(input_file))[0]\n    default_output_path = f\"entries_{datetime.now().strftime('%Y%m%d_%H%M%S')}\"\n    output_path = os.path.join(os.path.dirname(input_file), default_output_path)\n    if output_directory:\n        output_path = os.path.join(output_directory, default_output_path)\n    os.makedirs(output_path, exist_ok=True)\n    return output_path\ndef select_files(entry_list):\n    file_paths = filedialog.askopenfilenames(",
+        "detail": "chunk_csv",
+        "documentation": {}
+    },
+    {
+        "label": "select_files",
+        "kind": 2,
+        "importPath": "chunk_csv",
+        "description": "chunk_csv",
+        "peekOfCode": "def select_files(entry_list):\n    file_paths = filedialog.askopenfilenames(\n        title=\"Select CSV Files\", filetypes=[(\"CSV files\", \"*.csv\")]\n    )\n    entry_list.delete(0, \"end\")\n    for file_path in file_paths:\n        entry_list.insert(\"end\", file_path)\ndef select_directory(entry):\n    directory = filedialog.askdirectory(title=\"Select Output Directory\")\n    entry.delete(0, \"end\")",
+        "detail": "chunk_csv",
+        "documentation": {}
+    },
+    {
+        "label": "select_directory",
+        "kind": 2,
+        "importPath": "chunk_csv",
+        "description": "chunk_csv",
+        "peekOfCode": "def select_directory(entry):\n    directory = filedialog.askdirectory(title=\"Select Output Directory\")\n    entry.delete(0, \"end\")\n    entry.insert(0, directory)\ndef validate_csv_files(input_files):\n    for file_path in input_files:\n        if not file_path.lower().endswith(\".csv\"):\n            return False\n    return True\ndef split_csv_gui():",
+        "detail": "chunk_csv",
+        "documentation": {}
+    },
+    {
+        "label": "validate_csv_files",
+        "kind": 2,
+        "importPath": "chunk_csv",
+        "description": "chunk_csv",
+        "peekOfCode": "def validate_csv_files(input_files):\n    for file_path in input_files:\n        if not file_path.lower().endswith(\".csv\"):\n            return False\n    return True\ndef split_csv_gui():\n    root = Tk()\n    root.title(\"Entries File Spliter\")\n    # Set custom icon\n    icon_path = \"resource/icon.ico\"",
+        "detail": "chunk_csv",
+        "documentation": {}
+    },
+    {
+        "label": "split_csv_gui",
+        "kind": 2,
+        "importPath": "chunk_csv",
+        "description": "chunk_csv",
+        "peekOfCode": "def split_csv_gui():\n    root = Tk()\n    root.title(\"Entries File Spliter\")\n    # Set custom icon\n    icon_path = \"resource/icon.ico\"\n    if os.path.exists(icon_path):\n        root.iconbitmap(icon_path)\n    file_label = Label(root, text=\"SELECT CSV FILES:\")\n    file_label.pack()\n    file_listbox = Listbox(root, selectmode=MULTIPLE, width=50)",
+        "detail": "chunk_csv",
+        "documentation": {}
+    },
+    {
+        "label": "get_output_file_path",
+        "kind": 2,
+        "importPath": "chunk_csv_gui",
+        "description": "chunk_csv_gui",
+        "peekOfCode": "def get_output_file_path(input_file, output_directory, output_prefix, index):\n    file_name = os.path.splitext(os.path.basename(input_file))[0]\n    output_file = f\"{file_name}_{output_prefix}_{index + 1}.csv\"\n    output_path = (\n        output_directory or f\"entries_{datetime.now().strftime('%Y%m%d_%H%M%S')}\"\n    )\n    return os.path.join(output_path, output_file)\ndef split_csv(\n    root,\n    input_files,",
+        "detail": "chunk_csv_gui",
+        "documentation": {}
+    },
+    {
+        "label": "split_csv",
+        "kind": 2,
+        "importPath": "chunk_csv_gui",
+        "description": "chunk_csv_gui",
+        "peekOfCode": "def split_csv(\n    root,\n    input_files,\n    chunk_size=100000,\n    output_directory=None,\n    output_prefix=\"output_file\",\n    progress_var=None,\n):\n    total_files = len(input_files)\n    progress_step = 100 / total_files",
+        "detail": "chunk_csv_gui",
+        "documentation": {}
+    },
+    {
+        "label": "create_output_directory",
+        "kind": 2,
+        "importPath": "chunk_csv_gui",
+        "description": "chunk_csv_gui",
+        "peekOfCode": "def create_output_directory(input_file, output_directory):\n    file_name = os.path.splitext(os.path.basename(input_file))[0]\n    default_output_path = f\"entries_{datetime.now().strftime('%Y%m%d_%H%M%S')}\"\n    output_path = os.path.join(os.path.dirname(input_file), default_output_path)\n    if output_directory:\n        output_path = os.path.join(output_directory, default_output_path)\n    os.makedirs(output_path, exist_ok=True)\n    return output_path\ndef select_files(entry_list):\n    file_paths = filedialog.askopenfilenames(",
+        "detail": "chunk_csv_gui",
+        "documentation": {}
+    },
+    {
+        "label": "select_files",
+        "kind": 2,
+        "importPath": "chunk_csv_gui",
+        "description": "chunk_csv_gui",
+        "peekOfCode": "def select_files(entry_list):\n    file_paths = filedialog.askopenfilenames(\n        title=\"Select CSV Files\", filetypes=[(\"CSV files\", \"*.csv\")]\n    )\n    entry_list.delete(0, \"end\")\n    for file_path in file_paths:\n        entry_list.insert(\"end\", file_path)\ndef select_directory(entry):\n    directory = filedialog.askdirectory(title=\"Select Output Directory\")\n    entry.delete(0, \"end\")",
+        "detail": "chunk_csv_gui",
+        "documentation": {}
+    },
+    {
+        "label": "select_directory",
+        "kind": 2,
+        "importPath": "chunk_csv_gui",
+        "description": "chunk_csv_gui",
+        "peekOfCode": "def select_directory(entry):\n    directory = filedialog.askdirectory(title=\"Select Output Directory\")\n    entry.delete(0, \"end\")\n    entry.insert(0, directory)\ndef validate_csv_files(input_files):\n    for file_path in input_files:\n        if not file_path.lower().endswith(\".csv\"):\n            return False\n    return True\ndef split_csv_gui():",
+        "detail": "chunk_csv_gui",
+        "documentation": {}
+    },
+    {
+        "label": "validate_csv_files",
+        "kind": 2,
+        "importPath": "chunk_csv_gui",
+        "description": "chunk_csv_gui",
+        "peekOfCode": "def validate_csv_files(input_files):\n    for file_path in input_files:\n        if not file_path.lower().endswith(\".csv\"):\n            return False\n    return True\ndef split_csv_gui():\n    root = Tk()\n    root.title(\"Entries File Spliter\")\n    # Set custom icon\n    icon_path = \"resource/icon.ico\"",
+        "detail": "chunk_csv_gui",
+        "documentation": {}
+    },
+    {
+        "label": "split_csv_gui",
+        "kind": 2,
+        "importPath": "chunk_csv_gui",
+        "description": "chunk_csv_gui",
+        "peekOfCode": "def split_csv_gui():\n    root = Tk()\n    root.title(\"Entries File Spliter\")\n    # Set custom icon\n    icon_path = \"resource/icon.ico\"\n    if os.path.exists(icon_path):\n        root.iconbitmap(icon_path)\n    file_label = Label(root, text=\"SELECT CSV FILES:\")\n    file_label.pack()\n    file_listbox = Listbox(root, selectmode=MULTIPLE, width=50)",
+        "detail": "chunk_csv_gui",
+        "documentation": {}
+    }
+]
